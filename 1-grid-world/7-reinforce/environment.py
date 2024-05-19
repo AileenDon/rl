@@ -235,5 +235,5 @@ class Env(tk.Tk):
         return s_
 
     def render(self):
-        time.sleep(0.07)
+        time.sleep(0.000001)
         self.update()
